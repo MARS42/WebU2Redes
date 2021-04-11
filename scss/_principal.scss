@@ -1,0 +1,61 @@
+.principal
+{
+    background: url(../assets/img/bgs/338101.png);
+    .content {
+        width: 50%;
+        height: 100%;
+        background: $bg;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        color: $texto;
+        font-size: 2vh;
+        
+        h3
+        {
+            padding: 10px;
+            text-align: center;
+        }
+        h2
+        {
+            padding: 10px;
+            text-align: center;
+        }
+        h1
+        {
+            padding: 10px;
+        }
+        a
+        {
+            color: $texto;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .as
+        {
+            color: $texto;
+            text-decoration: none;
+            padding: 10px 10px 10px 40px;
+        }
+
+        .prueba
+        {
+            background: cadetblue;
+            .imagenes
+            {
+                display: flex;
+                flex-direction: column;
+                height: 256px;
+                overflow: auto;
+                background: cadetblue;
+                scroll-snap-type: y mandatory;
+            }
+            .imagen{
+                background: chocolate;
+                scroll-snap-align: start;
+            }
+        }
+    }
+}
